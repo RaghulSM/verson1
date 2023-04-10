@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    background-color: rgba(255, 228, 196, 0.273);
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 10px 5px salmon ;
+}
+.fa-bars{
+    font-size: 30px;
+}
+.head form>input{
+    background-color:rgba(0, 0, 255, 0.111);
+    width: 250px;
+    border-radius: 10px;
+}
+.head form>button{
+    background-color:rgba(0, 0, 255, 0.355);
+    border-radius: 10px;
+}
+.loginbutton button{
+    background-color:rgba(0, 0, 255, 0.263);
+}
+.fa-house{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.hamberger{
+    display:none;
+    width: 100px;
+    justify-content: center;
+}
+.bars:hover .hamberger{
+    display:grid;
+    background-color: rgba(67, 206, 7, 0.748);
+    position: absolute;
+    margin-left: 10px;
+}
+.bars a{
+    text-decoration: none;
+    font-size: large;
+    margin-top:10px ;
+    color: black;
+}
+.image h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color:blue;
+}
+/*-------------------------------product buttons-----------------------------------------------------------------------------------------------*/
+.headbuttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 10px 5px salmon ;
+   
+}
+.headbuttons div{
+    margin-right: 80px;
+}
+.headbuttons h3{
+    border-radius: 7px;
+ 
+}
+.rentbutton button{
+    background-color: rgba(36, 234, 18, 0.795);
+    border-radius: 5px;
+}
+
+.headbuttons>.automobile:hover{
+    color:blue;
+    cursor: pointer;
+}
+.headbuttons>.livingroom:hover{
+    color: blue;
+    cursor: pointer;
+}
+.headbuttons>.gadget:hover{
+    color: blue;
+    cursor: pointer;
+}
+.headbuttons>.office:hover{
+    color: blue;
+    cursor: pointer;
+}
+.headbuttons>.household:hover{
+    color:blue;
+    cursor: pointer;
+}
+.headbuttons> .homebtn>a:hover{
+    color: blue;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+/*--------------------------------------hover contents----------------------------------------------------------------------------------------*/
+.automobilecontent{
+    display: none;
+}
+.livingroomcontent{
+    display: none;
+}
+.gadgetcontent{
+    display: none;
+}
+.officecontent{
+    display: none;
+}
+.householdcontent{
+    display: none;
+}
+header>.headbuttons a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/*-----------------------------------------while hover-------------------------------------------------------------------------------------*/
+.headbuttons a:hover{
+    color: rgb(237, 72, 31);
+}
+.automobile:hover .automobilecontent{
+    display: grid;
+    background-color: rgba(245, 149, 147, 0.542);
+    margin-top: -20px;
+    width:150px;
+    position: absolute;
+    justify-content: center;
+}
+.livingroom:hover .livingroomcontent{
+    display: grid;
+    background-color: rgba(245, 149, 147, 0.542);
+    margin-top: -20px;
+    width:150px;
+    position: absolute;
+    justify-content: center;
+}
+.gadget:hover .gadgetcontent{
+    display: grid;
+    background-color: rgba(245, 149, 147, 0.542);
+    margin-top: -20px;
+    width:150px;
+    position: absolute;
+    justify-content: center;
+}
+.office:hover .officecontent{
+    display: grid;
+    background-color: rgba(245, 149, 147, 0.542);
+    margin-top: -20px;
+    width:150px;
+    position: absolute;
+    justify-content: center;
+}
+.household:hover .householdcontent{
+    display: grid;
+    background-color: rgba(245, 149, 147, 0.542);
+    margin-top: -20px;
+    width:150px;
+    position: absolute;
+    justify-content: center;
+
+}
+/*---------------------------------contents---------------------------------------------------------------------------------------------*/
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    
+  
+}
+table{
+    margin-left:100px;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow:0px 0px 10px rgb(8, 8, 8);
+    border-radius: 7px;
+    background-color: rgba(0, 255, 255, 0.199);
+}
+.contents> table:hover{
+   background-color:rgb(24, 77, 235);
+   box-shadow:0px 0px 10px rgb(7, 164, 52);
+   size: 20px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.cartbutton td :nth-child(even){
+    margin-left: 15px;
+}
+.cartbutton button{
+    border: 0px;
+    background-color: white;
+    color: gray;
+    font-size: 22px;
+    background-color: rgba(0, 255, 255, 0);
+}
+.rentbutton button{
+ width: 200px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.fa-envelope{
+    margin-left: 20px;
+    font-size: 50px;
+    color: rgb(255, 153, 0);
+}
+.fa-instagram{
+    margin-left: 20px;
+    font-size: 50px;
+    color: rgb(231, 24, 93);
+}
+.fa-facebook{
+    margin-left: 20px;
+    font-size: 50px;
+    color:blue;
+}
+.fa-twitter{
+    margin-left: 20px;
+    font-size: 50px;
+    color:rgb(0, 162, 255);
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    background-color:rgba(179, 174, 177, 0.193);
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 10px 5px salmon 
+}
+footer div{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.logo i{
+   font-size:25px ;
+}  

@@ -1,0 +1,74 @@
+body{
+    background-image:url("images/villa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    
+ }
+form{
+    border: 3px solid black;
+    width: 330px;
+    height: 650px;
+    background-color: aliceblue;
+    box-shadow: 0 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+div{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+input{
+    width: 200px;
+    box-shadow: 0 2px 2px;
+    border: 2px solid;
+}
+button{
+    width: 180px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+label{
+    font-weight: bold;
+}
+button{
+    font-weight: bold;
+    background-color: rgba(0, 8, 255, 0.41); 
+}
+.form-control input:focus{
+    outline:none;
+    border-color: aqua;
+   
+}
+.form-control.success input{
+    border-color: green;
+}
+.form-control.error input{
+    border-color: red;
+}
+.form-control i{
+   position: absolute;
+   visibility: hidden;
+}
+.form-control.success i.fa-circle-check{
+    color: green;
+    visibility: visible;
+} 
+.form-control.error i.fa-circle-exclamation{
+    color: red;
+    visibility: visible;
+} 
+.form-control small{
+    visibility: hidden;
+    color: red; 
+}
+.form-control.error small{
+    visibility: visible;
+}

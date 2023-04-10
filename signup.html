@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form role="form" action="login.html" onsubmit="signUp(event);" autocomplete="off" id="form">
+        <h1>Sign up</h1>
+        <div class="form-control">
+            <label for="firstname">First Name</label><br>
+            <input type="text" id="firstname">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i><br>
+            <small>Invalid</small>
+        </div>
+            
+        <div class="form-control">
+            <label for="lastname">Last Name</label><br>
+            <input type="text" id="lastname">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i><br>
+            <small>Invalid</small>
+        </div>
+           
+        <div class="form-control">
+            <label for="email">Email Id</label><br>
+            <input type="email" id="email">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i><br>
+            <small>Invalid</small>
+        </div>
+           
+        <div class="form-control">
+            <label for="newpassword">New Password</label><br>
+            <input type="password" id="newpassword">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i><br>
+            <small>Invalid</small>
+        </div>
+        <div class="form-control">
+            <label for="confrimpassword">Confirm Password</label><br>
+            <input type="password" id="confrimpassword">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i><br>
+            <small>Invalid</small>
+            </div>
+        <div class="form-control">
+            <button>Sign up</button>
+        </div>
+        <div>
+            <a href="login.html">Back to Login</a>
+        </div>
+      </form>
+</body>
+
+<script>
+   /* const form = document.getElementById("form");
+    const firstname = document.getElementById("firstname");
+    const lastname = document.getElementById("lastname");
+    const email = document.getElementById("email");
+    const newpassword = document.getElementById("newpassword");
+    const confrimpassword = document.getElementById("confrimpassword");
+   
+    form.addEventListener('submit', e =>{
+        e.preventDefault();
+        checkInput();
+    });
+    function checkInput(){
+        const firstnamevalue = firstname.value.trim();
+        const lastnamevalue = lastname.value.trim();
+        const emailvalue = email.value.trim();
+        const newpasswordvalue = newpassword.value.trim();
+        const confrimpasswordvalue = confrimpassword.value.trim();
+
+    if(firstnamevalue === ''){
+        setError(firstname,'First Name Cannot Be Blank');
+    }
+    else{
+        setSuccess(firstname);
+    }
+    if(lastnamevalue === ''){
+        setError(lastname,'Last Name Cannot Be Blank');
+    }
+    else{
+        setSuccess(lastname);
+    }
+    if(emailvalue === ''){
+        setError(email,'Email Cannot Be Blank');
+    }
+    
+    else{
+        setSuccess(email);
+    }
+if(newpasswordvalue === ''){
+        setError(newpassword,'Password Cannot Be Blank');
+    }
+    else{
+        setSuccess(newpassword);
+    }
+    if(confrimpasswordvalue === ''){
+        setError(confrimpassword,'Password Cannot Be Blank');
+    }
+    
+    else if(newpasswordvalue !== confrimpasswordvalue ){
+        setError(confrimpassword,'Password Does Not Match');
+    }
+    
+    else{
+        setSuccess(confrimpassword);
+    }
+}
+    function isEmail(email){
+        return /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+    function setError(input, message){
+        const formControl = input.parentElement;
+        const small = formControl.querySelector('small');
+        formControl.className = 'form-control error';
+        small.innerText = message;
+    }
+    function setSuccess(input){
+        const formControl = input.parentElement;
+        formControl.className = 'form-control success';
+    }*/
+
+</script>
+</html>

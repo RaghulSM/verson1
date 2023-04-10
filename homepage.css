@@ -1,0 +1,30 @@
+
+/*____________________table style________________________________*/
+.tableclass{
+    border: 2px solid black;
+    width: 300px;
+    margin-left: 130px;
+    margin-top: 30px;
+    border-collapse: collapse;
+
+}
+.tableclass th,tr,td{
+    border: 2px solid black;
+}
+.tableclass>th{
+border: 0px;
+text-align: center;
+}
+.tableclass tr:nth-child(even)
+{
+    background-color: rgba(140, 241, 68, 0.559);
+}
+.tablehead{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.tables{
+    margin-top:150px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}

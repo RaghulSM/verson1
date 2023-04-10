@@ -1,0 +1,45 @@
+body{
+   background-image: url("images/drone.jpg");
+   background-repeat: no-repeat;
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 150px;
+}
+form{
+    border: 3px solid black;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    box-shadow:0 5px 10px rgb(8, 8, 8);
+    
+}
+h1{
+    text-align: center;
+}
+div{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+#email{
+    width: 250px;
+}
+#password{
+    width: 250px;
+}
+input{
+    box-shadow: 0 5px 10px  black;
+}
+
+.loginbutton{
+    width: 255px;
+    background-color: rgba(58, 241, 217, 0.993);font-weight: bold;
+
+}
+label{
+    font-weight: bold;
+}
+.loginbutton:hover{
+    background-color: rgb(155, 42, 165);
+}
